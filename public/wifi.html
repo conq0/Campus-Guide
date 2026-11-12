@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Wi-Fi Tips-College Campus Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1> Campus Guide</h1>
+        <div class="nav-links">
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+            <a href="wifi.html" class="nav-link active">Wi-Fi</a>
+            <a href="checklist.html" class="nav-link">Checklist</a>
+            <button id="logoutBtn" class="btn-logout">Logout</button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h2> Campus Wi-Fi Tips-Dead Zones</h2>
+        <p>Click on any question below to see tips and senior troubleshooting advice.</p>
+    </header>
+
+    <div class="container">
+        <div class="faq-item">
+            <h3 class="faq-question" onclick="toggleFaq('faq1')"> How do I connect to campus Wi-Fi for the first time?</h3>
+            <div id="faq1" class="faq-answer" style="display: none;">
+                <p>Select the Wi-Fi network name: <span class="bold">Campus_Student</span>. When the login portal page pops up in your browser, enter your college roll number as username and your registration birthdate as the initial password.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question" onclick="toggleFaq('faq2')"> Where are the fastest Wi-Fi download speeds on campus?</h3>
+            <div id="faq2" class="faq-answer" style="display: none;">
+                <p>The highest speeds (around 40 Mbps to 60 Mbps) are inside the <span class="bold">Computer Science labs</span> and on the <span class="bold">Central Library ground floor</span> directly near the access routers.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question" onclick="toggleFaq('faq3')"> Why does mobile network and Wi-Fi disconnect in basement labs?</h3>
+            <div id="faq3" class="faq-answer" style="display: none;">
+                <p>The Mechanical and Civil workshops are located in lower basement levels with thick reinforced concrete and metal beams that block radio waves. Make sure to download your PDF manuals and assignment sheets before entering!</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question" onclick="toggleFaq('faq4')"> How many devices can a student register at one time?</h3>
+            <div id="faq4" class="faq-answer" style="display: none;">
+                <p>Each student account is limited to <span class="bold">two active devices</span> (one laptop and one smartphone). If you switch to a new phone, visit the IT support desk on 1st floor Admin Block to reset your MAC address.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question" onclick="toggleFaq('faq5')"> What should I do if the login portal page does not open automatically?</h3>
+            <div id="faq5" class="faq-answer" style="display: none;">
+                <p>Open your web browser (Chrome or Edge) and manually type <span class="bold">1.1.1.1</span> or <span class="bold">http://wifi.college.local</span> in the address bar to force the login portal to show up.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>College Campus Guide-First Year Student Mini Project</p>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/wifi.js"></script>
+</body>
+</html>

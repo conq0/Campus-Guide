@@ -1,0 +1,242 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333333;
+    font-size: 15px;
+}
+
+.navbar {
+    background-color:#3102b3;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    color:#ffffff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-left: 6px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.nav-link:hover {
+    background-color:#4f5050;
+}
+
+.nav-link.active {
+    background-color:#070707;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.btn-logout {
+    background-color:#d9534f;
+    color:#ffffff;
+    border: none;
+    padding: 8px 14px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-logout:hover {
+    background-color:#4f5050;
+}
+
+.page-header {
+    color:#00eeff;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.page-header h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.page-header p {
+    font-size: 15px;
+     color:#00eeff;
+     font-weight: bold;
+}
+
+.container {
+    width: 900px;
+    margin: 25px auto;
+    padding: 10px;
+    color:#00eeff;
+}
+.content {
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.content h2 {
+    color: #3102b3;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 5px;
+}
+
+.content h2:first-of-type {
+    margin-top: 0;
+}
+
+.content p {
+    font-size: 15px;
+    color: #444444;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.content ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.content li {
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+.faq-item {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.faq-question {
+    background-color: #3102b3;
+    color: #ffffff;
+    padding: 14px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.faq-question:hover {
+    background-color: #4923b4;
+}
+
+.faq-answer {
+    padding: 14px 18px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    border-top: 1px solid #000000;
+}
+.checklist-item {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color:#000000;
+    font-weight: bold;
+}
+
+.checklist-item:hover {
+    background-color: #fafafa;
+}
+
+.checklist-item input {
+    margin-right: 12px;
+    width: 18px;
+    height: 18px;
+}
+
+.checklist-done {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+body {
+    background-image: url('background/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="password"] {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.container input[type="submit"] {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 11px;
+    background-color: #3102b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.bold {
+    font-weight: bold;
+}

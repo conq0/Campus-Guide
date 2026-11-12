@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Freshers'Checklist - College Campus Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav class="navbar">
+    <h1> Campus Guide</h1>
+        <div class="nav-links">
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+            <a href="wifi.html" class="nav-link">Wi-Fi</a>
+            <a href="checklist.html" class="nav-link active">Checklist</a>
+            <button id="logoutBtn" class="btn-logout">Logout</button>
+        </div>
+</nav>
+
+    <header class="page-header">
+        <h2>Freshers' Survival Checklist</h2>
+        <p>Tick off the essential tasks for your first two weeks on campus. Saved automatically!</p>
+    </header>
+
+    <div class="container">
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check0" onclick="updateChecklist()">
+            <span id="label0">Collect student ID card and lanyard from the Administration Office</span>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check1" onclick="updateChecklist()">
+            <span id="label1">Submit Wi-Fi MAC address form to the Computer Center lab</span>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check2" onclick="updateChecklist()">
+            <span id="label2">Issue your Central Library borrower card from counter 2</span>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check3" onclick="updateChecklist()">
+            <span id="label3">Join the official first-year batch WhatsApp and notice group</span>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check4" onclick="updateChecklist()">
+            <span id="label4">Locate your core engineering lecture hall and chemistry lab</span>
+        </div>
+    </div>
+    <footer>
+        <p>College Campus Guide-First Year Student Mini Project</p>
+    </footer>
+
+    <script src="js/common.js"></script>
+    <script src="js/checklist.js"></script>
+</body>
+</html>
